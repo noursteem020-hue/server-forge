@@ -12,3 +12,4 @@ Thumbs.db
 
 # Local SDD process artifacts (not part of the public product)
 .superpowers/
+docs/superpowers/

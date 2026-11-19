@@ -74,8 +74,8 @@ bundled changes, no implied permissions, no silent retries.
 
 ## Boundaries
 
-- Neutral public content only: no fleet architecture, no SERVER-2 fingerprints,
-  no real address, hostname, project name, or hash.
+- Neutral public content only: no fleet architecture, no upstream fleet node
+  fingerprints, no real address, hostname, project name, or hash.
 - Never place a secret in chat, argv, logs, or a stage file. Secrets are generated
   at build time into mode-600 files and never printed.
 - All server-facing commands, scripts, files, prompts, and reports are
