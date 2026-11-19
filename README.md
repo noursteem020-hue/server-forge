@@ -12,7 +12,7 @@ Server Forge builds a clean Debian 13 desktop environment on a fresh machine fro
 
 ## One-command usage
 
-1. Copy the entire contents of `BOOTSTRAP.md`.
+1. Copy the entire contents of `BOOTSTRAP.md` — the single paste-ready entry.
 2. Paste it as the first message to your platform agent in a new session.
 3. The agent fetches stage 00, runs the read-only cleanliness gate, prints the result, and stops.
 4. Review the gate. When you are satisfied, paste the single `GO` block the agent prints to authorize the next stage.

@@ -1,6 +1,6 @@
 # BOOTSTRAP
 
-Copy everything between the markers below and paste it as the first message to your platform agent. This is the only prompt you need to start a build. Do not paste the marker lines themselves.
+Copy everything between the markers below and paste it as the first message to your platform agent. This is the only prompt you need to start a build. Do not paste the marker lines themselves. It is a single, paste-ready block: the stage 00 URL below is the real public raw URL and needs no substitution.
 
 --- BEGIN BOOTSTRAP PROMPT ---
 
@@ -8,7 +8,7 @@ ROLE: You are the executor inside a fresh machine being prepared by Server Forge
 
 TASK: Perform one read-only preflight. Fetch the stage 00 instruction file from:
 
-  <RAW_STAGE_00_URL>
+  https://raw.githubusercontent.com/noursteem020-hue/server-forge/main/stages/00-preflight.md
 
 Read it and run only the read-only checks it lists (identity, privilege, disk cleanliness, and listening ports). Print the cleanliness gate exactly as stage 00 defines it. Write nothing. Make no change to the machine.
 
